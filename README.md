@@ -1,4 +1,5 @@
 1)Sql Schema:
+-
 
 CREATE DATABASE Finance_Mgmt;
 USE Finance_Mgmt;
@@ -52,7 +53,6 @@ VALUES
 ('Rent'),
 ('Taxes');
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2)Output Screenshots:
 -
@@ -65,7 +65,7 @@ VALUES
 
 The user named ‘Krishna’ has been added to the database.
 
-2. Login User:
+2.Login User:
 
 ![image](https://github.com/user-attachments/assets/aae23d22-17ad-4ff0-8f00-2fdbf88667bf)
 
@@ -83,19 +83,19 @@ The user got logged in and he can use the below displayed menu.
 
 All three expenses have been added to the Expenses table.
 
-4. iew All Expenses:
+4.View All Expenses:
 
 ![image](https://github.com/user-attachments/assets/c4320039-e1f3-4c64-bcca-18ec3fcd77cc)
 
 The user gets to view all the expenses he has made.
 
-5. View Expenses by Category:
+5.View Expenses by Category:
 
 ![image](https://github.com/user-attachments/assets/eea23a82-d421-4255-b0ca-6ecec05e7957)
 
 Expenses under the category ‘Food’ is displayed to the user here.
 
-6. View Expenses by Date Range:
+6.View Expenses by Date Range:
 
 ![image](https://github.com/user-attachments/assets/44de2d34-2aa3-4494-9cb1-b9d916f5985a)
 
@@ -107,7 +107,7 @@ Here the user enters dates from 2024-10-10 to 2024-10-12 to get the expense made
 
 Here the updated Expense of the user is successful and can be verified here.
 
-8. Delete Expense:
+8.Delete Expense:
 
 ![image](https://github.com/user-attachments/assets/04d73d6a-e66c-40a2-b254-6cba9da995a6)
 
@@ -115,7 +115,7 @@ Here the updated Expense of the user is successful and can be verified here.
 
 The expense has been successfully deleted here and is verified.
 
-9. Logout:
+9.Logout:
 
 ![image](https://github.com/user-attachments/assets/94a1d39b-1297-4d5d-9c63-194f2987a963)
 
@@ -129,11 +129,11 @@ The user has been logged out successfully.
  
 The user has been deleted successfully.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-3) Exception Handling:
-   
-1. ExpenseNotFoundException:
+3)Exception Handling:
+-
+     
+1.ExpenseNotFoundException:
 
 ![image](https://github.com/user-attachments/assets/8fafadff-a0b7-4d57-b779-930daf00eb3c)
 
@@ -145,9 +145,8 @@ Expection Id is not found.
 
 NonExistentUser is not found.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-3) Testing:
+4)Testing:
+-
 
 1.Test User Creation:
 
